@@ -13,7 +13,7 @@
 .serif,
 body,
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'abeatbykai', 'Lora', 'Times New Roman', serif;
 }
 .sans-serif,
 h1,
@@ -29,7 +29,7 @@ h6,
 .btn,
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'abeatbykai', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body {
   font-size: 20px;
@@ -465,7 +465,7 @@ article .container .row .video-container embed {
 }
 article .container .row blockquote {
   font-style: italic;
-  font-family: "Georgia", serif;
+  font-family: abeatbykai, "Georgia", serif;
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
@@ -508,7 +508,7 @@ figure.highlight {
 }
 figure.highlight figcaption {
   color: #999;
-  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
+  font-family: abeatbykai, Monaco, Menlo, Consolas, Courier New, monospace;
   margin-bottom: 5px;
   text-shadow: 0 0 1px #fff;
 }
@@ -614,15 +614,30 @@ pre .deletion {
 .bk-cirle-tw {
   color: #4da7de;
 }
+.bk-cirle-tw:hover {
+  color: #f00 false;
+}
 .bk-cirle-fb {
   color: #3e5b98;
 }
+.bk-cirle-fb:hover {
+  color: #f00;
+}
 .bk-cirle-ig {
-  color: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #f00, #ff0);
+  color: #000;
+}
+.bk-cirle-ig:hover {
+  color: #f00;
 }
 .bk-cirle-em {
   color: #808080;
 }
+.bk-cirle-em:hover {
+  color: #f00;
+}
 .bk-cirle-rss {
   color: #f26109;
+}
+.bk-cirle-rss:hover {
+  color: #f00;
 }

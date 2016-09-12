@@ -10,7 +10,7 @@
   -o-background-size: cover;
 }
 @font-face {
-  font-family: abeatbyKai;
+  font-family: 'abeatbyKai';
   src: url("http://terapiapositiva.es/css/fonts/ABEAKRG.TTF");
 }
 .serif {

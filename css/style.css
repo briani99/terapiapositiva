@@ -13,7 +13,7 @@
 .serif,
 body,
 .intro-header .post-heading .meta {
-  font-family: 'abeatbykai', 'Lora', 'Times New Roman', serif;
+  font-family: 'abeatbyKai', 'Lora', 'Times New Roman', serif;
 }
 .sans-serif,
 h1,
@@ -29,7 +29,7 @@ h6,
 .btn,
 .pager li > a,
 .pager li > span {
-  font-family: 'abeatbykai', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'abeatbyKai', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body {
   font-size: 20px;
@@ -465,7 +465,7 @@ article .container .row .video-container embed {
 }
 article .container .row blockquote {
   font-style: italic;
-  font-family: abeatbykai, "Georgia", serif;
+  font-family: abeatbyKai, "Georgia", serif;
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
@@ -508,7 +508,7 @@ figure.highlight {
 }
 figure.highlight figcaption {
   color: #999;
-  font-family: abeatbykai, Monaco, Menlo, Consolas, Courier New, monospace;
+  font-family: abeatbyKai, Monaco, Menlo, Consolas, Courier New, monospace;
   margin-bottom: 5px;
   text-shadow: 0 0 1px #fff;
 }
@@ -640,4 +640,7 @@ pre .deletion {
 }
 .bk-cirle-rss:hover {
   color: #f00;
+}
+.bk-instagram-fade {
+  color: #008000;
 }

@@ -611,3 +611,18 @@ pre .clojure .title {
 pre .deletion {
   color: #dc322f;
 }
+.bk-cirle-tw {
+  color: #4da7de;
+}
+.bk-cirle-fb {
+  color: #3e5b98;
+}
+.bk-cirle-ig {
+  color: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #f00, #ff0);
+}
+.bk-cirle-em {
+  color: #808080;
+}
+.bk-cirle-rss {
+  color: #f26109;
+}

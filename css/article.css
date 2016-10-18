@@ -3,6 +3,9 @@ article .container .row img {
   height: auto;
   display: inline-block;
 }
+article .container .row p {
+  font-family: "Comic Sans MS";
+}
 article .container .row .video-container {
   position: relative;
   padding-bottom: 56.25%;

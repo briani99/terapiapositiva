@@ -1,24 +1,36 @@
-article .container .row img {
+article {
+  font-family: "Comic Sans MS";
+  color: #686868;
+}
+article .container img,
+article .row img {
   max-width: 100% !important;
   height: auto;
   display: inline-block;
 }
-article .container .row p,
-article .container .row ul,
-article .container .row li {
+article .container p,
+article .row p,
+article .container ul,
+article .row ul,
+article .container li,
+article .row li {
   font-family: "Comic Sans MS";
   color: #686868;
 }
-article .container .row .video-container {
+article .container .video-container,
+article .row .video-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 }
-article .container .row .video-container iframe,
-article .container .row .video-container object,
-article .container .row .video-container embed {
+article .container .video-container iframe,
+article .row .video-container iframe,
+article .container .video-container object,
+article .row .video-container object,
+article .container .video-container embed,
+article .row .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,26 +38,30 @@ article .container .row .video-container embed {
   height: 100%;
   margin-top: 0;
 }
-article .container .row blockquote {
+article .container blockquote,
+article .row blockquote {
   font-style: italic;
   font-family: font-serif;
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
 }
-article .container .row blockquote footer {
+article .container blockquote footer,
+article .row blockquote footer {
   border-top: none;
   font-size: 0.8em;
   line-height: 1;
   margin: 20px 0 0;
   padding-top: 0;
 }
-article .container .row blockquote footer cite:before {
+article .container blockquote footer cite:before,
+article .row blockquote footer cite:before {
   content: '—';
   color: #ccc;
   padding: 0 0.5em;
 }
-article .container .row .pullquote {
+article .container .pullquote,
+article .row .pullquote {
   float: right;
   border: none;
   padding: 0;
@@ -54,7 +70,8 @@ article .container .row .pullquote {
   width: 45%;
   font-size: 1.5em;
 }
-article .container .row .pullquote.left {
+article .container .pullquote.left,
+article .row .pullquote.left {
   float: left;
 }
 figure.highlight {

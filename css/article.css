@@ -3,8 +3,11 @@ article .container .row img {
   height: auto;
   display: inline-block;
 }
-article .container .row p {
+article .container .row p,
+article .container .row ul,
+article .container .row li {
   font-family: "Comic Sans MS";
+  color: #686868;
 }
 article .container .row .video-container {
   position: relative;
